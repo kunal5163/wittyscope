@@ -72,6 +72,9 @@ function myFunction() {
                 card[i].classList.add('is-flipped');
             }
         });
+        setTimeout(function(){
+            window.location.reload(1);
+         }, 5000);
     }, 3000);
 }
 myFunction()
