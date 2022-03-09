@@ -71,13 +71,16 @@ function myFunction() {
             for (let i = 0; i < card.length; i++) {
                 card[i].classList.add('is-flipped');
             }
-        });
-        setTimeout(function(){
+            setTimeout(function(){
             window.location.reload(1);
          }, 5000);
+        });
+       
     }, 3000);
 }
 myFunction()
+
+
 /*working of button get horroscope*/
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
